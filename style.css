@@ -47,3 +47,56 @@ body {
     background: #F3F2EF;
     height: 1200px;
 }
+
+/* Card START */
+.default-background  {
+    background-color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45px;
+}
+
+.user-icon  {
+    position: relative;
+    left: calc(50% - 20px);
+    top: 50%;
+    border: solid white 5px;
+    border-radius: 35px;
+}
+
+.font-weight-bold    {
+    font-weight: 600;
+}
+
+.custom-border  {
+    border-bottom: solid #e4e4e4 1px;
+}
+
+.custom-paragraph   {
+    color: #c4c4c4;
+    font-weight: 500;
+}
+
+.custom-paragraph-2 {
+    color: #787878;
+    font-weight: 500;
+}
+
+.custom-paragraph-blue  {
+    color: #004182;
+    font-weight: 600;
+}
+
+.bookmark-text  {
+    font-weight: 600;
+}
+
+.card-content   {
+    padding-top: 3rem;
+}
+
+.discover-more  {
+    text-align: center;
+    border-top: solid 1px #c4c4c4;
+}
+/* Card END */
