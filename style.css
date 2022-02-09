@@ -45,7 +45,7 @@ body {
 
 .main-content   {
     background: #F3F2EF;
-    height: 1200px;
+    /* height: 1200px; */
 }
 
 /* Card START */
@@ -145,5 +145,28 @@ body {
     border: solid #004182 1.5px;
     color: #004182;
     font-weight: 600;
+}
+
+.advertisement  {
+    object-fit: contain;
+    width: 100%;
+}
+
+.text-background    {
+    background: #EEF3F8;
+}
+
+.learn-more {
+    background: white;
+    border-radius: 50px;
+    border: solid #0A66C2 1px;
+    color: #0A66C2;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.advertisement-text {
+    color: #c4c4c4;
+    font-size: small;
 }
 /* Card END */
