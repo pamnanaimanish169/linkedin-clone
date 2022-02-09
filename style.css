@@ -58,7 +58,7 @@ body {
 
 .user-icon  {
     position: relative;
-    left: calc(50% - 20px);
+    left: calc(50% - 30px);
     top: 50%;
     border: solid white 5px;
     border-radius: 35px;
@@ -118,5 +118,32 @@ body {
 .footer-ul  >   li  {
     display: inline-block;
     font-size: small;
+}
+
+.start-a-post   {
+    border-radius: 50px;
+    border: solid #c4c4c4 1px;
+    margin-right: 5px;
+}
+
+.post-ul    {
+    padding-top: 5px;
+}
+
+.list-text  {
+    color: #c4c4c4;
+    font-weight: 500;
+}
+
+.posted-by-details  {
+    font-size: 11px;
+}
+
+.vote-button    {
+    border-radius: 50px;
+    background: white;
+    border: solid #004182 1.5px;
+    color: #004182;
+    font-weight: 600;
 }
 /* Card END */
