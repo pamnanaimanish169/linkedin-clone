@@ -1,0 +1,21 @@
+.learn-more-link    {
+    text-decoration: none;
+}
+
+.add-personal-contacts  {
+    text-align: center;
+}
+
+.continue-button    {
+    background: white;
+    color: #0A66C2;
+    border: solid #0A66C2 1px;
+    border-radius: 50px;
+    font-weight: 600;
+    width: 30%;
+}
+
+.more-options   {
+    color: #c4c4c4;
+    font-size: 12px;
+}
