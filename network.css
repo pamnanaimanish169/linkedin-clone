@@ -19,3 +19,21 @@
     color: #c4c4c4;
     font-size: 12px;
 }
+
+.ignore-button  {
+    background: none;
+    border: none;
+    color: #c4c4c4;
+}
+
+.show-more  {
+    color: #0a66c2;
+    font-weight: 600;
+}
+
+.close-button   {
+    position: relative;
+    right: 0px;
+    left: 175px;
+    top: -70px;
+}
