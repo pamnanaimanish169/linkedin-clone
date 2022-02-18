@@ -37,3 +37,8 @@
     left: 175px;
     top: -70px;
 }
+
+.main-content   {
+    min-height: 900px;
+    overflow: hidden;
+}

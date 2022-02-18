@@ -1,7 +1,71 @@
-.messaging-small    {
+.messaging-small {
     width: 30%;
 }
 
-.messaging-large    {
+.messaging-large {
     width: 70%;
+}
+
+.chat {
+    font-size: 12px;
+}
+
+.chat-list-element {
+    border-bottom: solid #c4c4c4 1px;
+
+}
+
+.title {
+    font-size: 14px;
+}
+
+.time   {
+    text-align: center;
+}
+
+.main-content   {
+    min-height: 900px;
+    overflow: hidden;
+}
+
+/* .time:before    {
+    content: "";
+    display: block;
+    width: 290px;
+    height: 1px;
+    background: #c4c4c4;
+    left: 0;
+    top: 94%;
+    position: absolute;
+}
+
+.time:after    {
+    content: "";
+    display: block;
+    width: 288px;
+    height: 1px;
+    background: #c4c4c4;
+    left: 57%;
+    top: 94%;
+    position: absolute;
+}
+
+@media screen   and (max-width  :   1024px) {
+    .time:before    {
+        width: 200px;
+    }
+    .time:after    {
+        width: 200px;
+        left: 58%;
+    }
+} */
+
+.chat-style {
+    overflow-y: scroll;
+    height: 440px;
+}
+
+.attachement    {
+    background: #F9FAFB;
+    height: 131px;
 }

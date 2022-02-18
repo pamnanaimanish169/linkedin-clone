@@ -170,3 +170,8 @@ body {
     font-size: small;
 }
 /* Card END */
+
+.main-content   {
+    min-height: 900px;
+    overflow: hidden;
+}

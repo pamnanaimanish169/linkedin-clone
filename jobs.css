@@ -47,3 +47,8 @@
     background: white;
     border: white;
 }
+
+.main-content   {
+    min-height: 900px;
+    overflow: hidden;
+}

@@ -96,9 +96,9 @@
         <div class="container">
             <div class="row d-flex justify-content-around py-3">
                 <div class="col-md-9 d-flex justify-content-flex-start">
-                    <div    class="messaging-small">
+                    <div class="messaging-small">
                         <div class="card">
-                            <div    class="d-flex justify-content-between p-2">
+                            <div class="d-flex justify-content-between p-2">
                                 <h6>Messaging</h6>
                                 <div>
                                     <i class="fa fa-ellipsis-h px-2"></i>
@@ -107,10 +107,11 @@
                             </div>
                             <div>
                                 <div class="input-group my-2 px-2">
-                                    <input class="form-control border-end-0 border" type="search" value="Search messages"
-                                        id="example-search-input">
+                                    <input class="form-control border-end-0 border" type="search"
+                                        value="Search messages" id="example-search-input">
                                     <span class="input-group-append">
-                                        <button class="btn btn-outline-secondary bg-white border-start-0 border-bottom-0 border ms-n5"
+                                        <button
+                                            class="btn btn-outline-secondary bg-white border-start-0 border-bottom-0 border ms-n5"
                                             type="button">
                                             <i class="fa fa-search"></i>
                                         </button>
@@ -119,50 +120,228 @@
                             </div>
                             <div>
                                 <ul class="list-unstyled">
-                                    <li>
+                                    <li class="d-flex justify-content-around p-2 chat-list-element">
                                         <img src="./assets/images/user-64by64.png" alt="">
-                                        <div>
-                                            <div>
+                                        <div class="px-2 d-flex justify-content-around" style="font-size: 14px;">
+                                            <div class="px-2 chat">
                                                 Human Resource D.
+                                                <div>You : How about you?</div>
                                             </div>
-                                            <div>
+                                            <div class="chat">
                                                 2:27 PM
                                             </div>
                                         </div>
-                                        <div>
-                                            You: How about you
+
+                                    </li>
+
+                                    <li class="d-flex justify-content-around p-2 chat-list-element">
+                                        <img src="./assets/images/user-64by64.png" alt="">
+                                        <div class="px-2 d-flex justify-content-around" style="font-size: 14px;">
+                                            <div class="px-2 chat">
+                                                Joe Smith
+                                                <div>Joe Smith: Lorem Ipsum</div>
+                                            </div>
+                                            <div class="chat">
+                                                5:27 PM
+                                            </div>
                                         </div>
+
+                                    </li>
+
+                                    <li class="d-flex justify-content-around p-2 chat-list-element">
+                                        <img src="./assets/images/user-64by64.png" alt="">
+                                        <div class="px-2 d-flex justify-content-around" style="font-size: 14px;">
+                                            <div class="px-2 chat">
+                                                Joe Smith
+                                                <div>Alpha Dude : Lorem Ipsum</div>
+                                            </div>
+                                            <div class="chat">
+                                                7:89 PM
+                                            </div>
+                                        </div>
+
+                                    </li>
+
+                                    <li class="d-flex justify-content-around p-2 chat-list-element">
+                                        <img src="./assets/images/user-64by64.png" alt="">
+                                        <div class="px-2 d-flex justify-content-around" style="font-size: 14px;">
+                                            <div class="px-2 chat">
+                                                Human Resource D.
+                                                <div>You : How about you?</div>
+                                            </div>
+                                            <div class="chat">
+                                                2:27 PM
+                                            </div>
+                                        </div>
+
+                                    </li>
+
+                                    <li class="d-flex justify-content-around p-2 chat-list-element">
+                                        <img src="./assets/images/user-64by64.png" alt="">
+                                        <div class="px-2 d-flex justify-content-around" style="font-size: 14px;">
+                                            <div class="px-2 chat">
+                                                Human Resource D.
+                                                <div>You : How about you?</div>
+                                            </div>
+                                            <div class="chat">
+                                                2:27 PM
+                                            </div>
+                                        </div>
+
+                                    </li>
+
+                                    <li class="d-flex justify-content-around p-2 chat-list-element">
+                                        <img src="./assets/images/user-64by64.png" alt="">
+                                        <div class="px-2 d-flex justify-content-around" style="font-size: 14px;">
+                                            <div class="px-2 chat">
+                                                Human Resource D.
+                                                <div>You : How about you?</div>
+                                            </div>
+                                            <div class="chat">
+                                                2:27 PM
+                                            </div>
+                                        </div>
+
+                                    </li>
+
+                                    <li class="d-flex justify-content-around p-2 chat-list-element">
+                                        <img src="./assets/images/user-64by64.png" alt="">
+                                        <div class="px-2 d-flex justify-content-around" style="font-size: 14px;">
+                                            <div class="px-2 chat">
+                                                Human Resource D.
+                                                <div>You : How about you?</div>
+                                            </div>
+                                            <div class="chat">
+                                                2:27 PM
+                                            </div>
+                                        </div>
+
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div    class="messaging-large">
-                        <div class="card">
-                            <div>
-                                <h6>Messaging</h6>
+                    <div class="messaging-large">
+                        <div class="card chat-style">
+                            <div class="d-flex justify-content-between p-2" style="border-bottom: solid #c4c4c4 1px;">
                                 <div>
-                                    <i class="fa fa-ellipsis-h"></i>
-                                    <i class="fa fa-clipboard"></i>
+                                    <h6 class="p-0 m-0" style="font-size: 14px;">Human Resource D.</h6>
+                                    <span style="font-size: 12px;">Technical Recruiter at Dev Technosys</span>
+                                </div>
+
+                                <div>
+                                    <i class="fa fa-ellipsis-h px-2"></i>
+                                    <i class="fa fa-video-camera px-2"></i>
                                 </div>
                             </div>
-                            <div></div>
-                            <div></div>
+                            <div class="p-2">
+                                <img src="./assets/images/user-64by64.png" alt="">
+                                <div>
+                                    <h6>Human Resource D. &#8226; 1st </h6>
+                                    <div style="font-size: 12px;">
+                                        Technical Recruiter at D. T.
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="time" style="color: #c4c4c4;">JAN 19, 2021</div>
+                            <div class="d-flex flex-row p-2">
+                                <div>
+                                    <img src="./assets/images/user.png" alt="">
+                                </div>
+                                <div class="px-2">
+                                    <h6>Human Resource Dev Technosys &#8226; 09:00 AM</h6>
+                                    <div style="font-size: 12px;">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="time" style="color: #c4c4c4;">FEB 19, 2021</div>
+                            <div class="d-flex flex-row p-2">
+                                <div>
+                                    <img src="./assets/images/user.png" alt="">
+                                </div>
+                                <div class="px-2">
+                                    <h6>Human Resource Dev Technosys &#8226; 10:00 AM</h6>
+                                    <div style="font-size: 12px;">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="time" style="color: #c4c4c4;">MAR 19, 2021</div>
+                            <div class="d-flex flex-row p-2">
+                                <div>
+                                    <img src="./assets/images/user.png" alt="">
+                                </div>
+                                <div class="px-2">
+                                    <h6>Human Resource Dev Technosys &#8226; 11:00 AM</h6>
+                                    <div style="font-size: 12px;">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="time" style="color: #c4c4c4;">APR 19, 2021</div>
+                            <div class="d-flex flex-row p-2">
+                                <div>
+                                    <img src="./assets/images/user.png" alt="">
+                                </div>
+                                <div class="px-2">
+                                    <h6>Human Resource Dev Technosys &#8226; 12:00 AM</h6>
+                                    <div style="font-size: 12px;">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="time" style="color: #c4c4c4;">MAY 19, 2021</div>
+                            <div class="d-flex flex-row p-2">
+                                <div>
+                                    <img src="./assets/images/user.png" alt="">
+                                </div>
+                                <div class="px-2">
+                                    <h6>Human Resource Dev Technosys &#8226; 1:00 PM</h6>
+                                    <div style="font-size: 12px;">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        2
+
+                        <div class="card chat">
+                            <textarea name="" id="" cols="10" rows="5" placeholder="Write a message..."
+                                style="border: none;" class="p-2"></textarea>
+                        </div>
+
+                        <div class="attachement d-flex justify-content-between p-2">
+                            <div>
+                                <img src="./assets/images/image.png" alt="" class="px-2">
+                                <img src="./assets/images/attachment.png" alt=""    class="px-2">
+                                <img src="./assets/images/gif.png" alt=""   class="px-2">
+                                <img src="./assets/images/happiness.png" alt="" class="px-2">
+                            </div>
+
+                            <div>
+                                <button style="border: none;
+                                color: #c4c4c4;border-radius: 15px; font-size: 12px;">Send</button>
+                                <button style="border: none;
+                                background: unset;"><i class="fa fa-ellipsis-h"></i></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-md-3">
                     <div class="card">
-                        <div    class="p-2">
-                            <div    style="font-weight: 600;">Job seeker guidance</div>
-                            <div    style="font-size: 14px;">Receommended based on your activity</div>
+                        <div class="p-2">
+                            <div style="font-weight: 600;">Job seeker guidance</div>
+                            <div style="font-size: 14px;">Receommended based on your activity</div>
                         </div>
 
-                        <div    class="d-flex justify-content-space-between improve-resume p-3">
+                        <div class="d-flex justify-content-space-between improve-resume p-3">
                             <div>
                                 I want to improve my resume
                             </div>
@@ -171,7 +350,7 @@
                             </div>
                         </div>
 
-                        <div    class="p-2">
+                        <div class="p-2">
                             <button class="show-more">Show more <i class="fa fa-arrow-right"></i></button>
                         </div>
                     </div>
